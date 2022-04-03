@@ -24,7 +24,7 @@ class Animal
 
     public static function getENV()
     {
-        return 'Mon environnement est : '. static::$env;
+        return 'Mon environnement est la '. static::$env;
     }
 
     public function getMyType($type)

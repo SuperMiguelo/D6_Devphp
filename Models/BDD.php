@@ -10,12 +10,7 @@ class BDD
     Const DBNAME = 'renduphp';
     const PORT = '3600';
 
-    public $pdo;
-
-    public function __construct()
-    {
-        
-    }
+    public $pdo;    
 
     public function connect()
     {   

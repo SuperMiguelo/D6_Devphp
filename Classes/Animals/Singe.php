@@ -5,7 +5,7 @@ use App\Animal;
 
 class Monkey extends Animal
 {
-    const TYPE = 'Monkey';
+    const TYPE = 'Singe';
     protected static $nbrpates = 4;
     protected static $env = 'Jungle';
 
