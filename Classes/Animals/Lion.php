@@ -3,11 +3,11 @@ namespace Animals;
 
 use App\Animal;
 
-class Dauphin extends Animal
+class Lion extends Animal
 {
-    const TYPE = 'Dauphin';
-    protected static $nbrpates = 0;
-    protected static $env = 'mer';
+    const TYPE = 'Lion';
+    protected static $nbrpates = 4;
+    protected static $env = 'savane';
 
     public function __construct()
     {
@@ -17,10 +17,5 @@ class Dauphin extends Animal
     public static function getENV()
     {
         return 'Mon environnement est la '. static::$env . ' mais je sais aussi nager.';
-    }
-
-    public static function getNBRPATES()
-    {
-        return "Je n'ai pas de pates, mais des nageoirs";
     }
 }

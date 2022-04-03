@@ -4,7 +4,7 @@ include_once 'includes/header.php';
 
 // Exemple
 echo '<div class="animal-cards">';
-$animals = [['type' => 'Chien'], ['type' => 'Monkey'], ['type' => 'Dauphin']];
+$animals = [['type' => 'Lion'], ['type' => 'Monkey'], ['type' => 'Dauphin']];
 foreach($animals as $id_animal => $animal){
     include 'templates/animal-card.php';
 }

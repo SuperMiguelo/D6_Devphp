@@ -1,10 +1,10 @@
 <?php
 namespace Metiers;
 
-class Chien
+class Lion
 {
     public function __construct()
     {
-        echo "Je suis le métier qui s'occupe des chiens  <br>";
+        echo "Je suis le métier qui s'occupe des Lions  <br>";
     }
 }
